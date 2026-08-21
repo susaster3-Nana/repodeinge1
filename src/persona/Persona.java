@@ -9,6 +9,13 @@ public class Persona {
     public Persona() {
     }
 
+    public Persona(String nombre, int edad, double altura, boolean activo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.altura = altura;
+        this.activo = activo;
+    }
+
     public String getNombre() {
         return nombre;
     }
