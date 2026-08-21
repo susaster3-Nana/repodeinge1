@@ -1,6 +1,7 @@
 package practica1;
 
 import dispositivo.Dispositivo;
+import persona.Persona;
 import tren.Tren;
 
 import java.util.*;
@@ -219,10 +220,15 @@ public class Practica1 {
         }while (x!=0 && x!=4);
     }
 
+    public static void casoC(Scanner entrada, Persona persona1){
+
+    }
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         Dispositivo dispositivo1 = new Dispositivo();
         Tren tren1 = new Tren();
+        Persona persona = new Persona();
         int w;
 
         do{
